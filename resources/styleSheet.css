@@ -1,0 +1,111 @@
+.button {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 13;
+    font-size: 13;
+    -fx-font-familty: "Verdana";
+    -fx-background-color: #43C6DB;
+    background-color: #43C6DB;
+}
+
+.label {
+    -fx-font-size: 13;
+    font-size: 13;
+    -fx-text-fill: black;
+    -fx-font-familty: "Verdana"; 
+}
+
+#firstTitelLabel {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 28;
+    font-size: 28;
+}
+
+#secondTitelLabel {
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 10; 
+    padding: 10; 
+    -fx-background-color: #0a9ec2;
+    background-color: #0a9ec2;
+    -fx-font-size: 35;
+    font-size: 35;
+}
+
+#errorLabel {
+    -fx-text-fill: red;
+}
+
+#createStudentButton, #editStudentButton, #updateRegistration, #createCourseButton, #createRegistrationButtin {
+    -fx-background-color: #0a9ec2;
+    background-color: #0a9ec2;
+}
+
+.text-area {
+    -fx-background-color: #0a9ec2;
+    background-color: #0a9ec2;
+    -fx-font-size: 11;
+    font-size: 11;
+    -fx-text-fill: #FFFFFF;
+}
+.text-area .content {
+    -fx-background-color: #0a9ec2;
+    background-color: #0a9ec2;
+}
+
+.combo-box .arrow{
+    -fx-background-color:#43C6DB;
+    background-color:#43C6DB;
+}
+
+.combo-box .arrow-button{
+    -fx-background-color:#0a9ec2;
+    background-color:#0a9ec2;
+    -fx-border-style:none;
+    border-style:none;
+}
+
+.combo-box .list-cell{
+    -fx-background-color:#43C6DB;
+    background-color:#43C6DB;
+}
+
+.table-view{
+    -fx-background-color: transparent;
+    background-color: transparent;
+ }
+ 
+ .table-view .column-header-background{
+     -fx-background-color: #43C6DB;
+     background-color: #43C6DB;
+ }
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    background-color: transparent;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #FFFFFF;
+    background-color: -fx-table-cell-border-color, #FFFFFF;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #EBF4FA;
+    background-color: -fx-table-cell-border-color, #EBF4FA;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+    padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #43C6DB;
+    background-color: #43C6DB;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
